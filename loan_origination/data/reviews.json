@@ -1,0 +1,22 @@
+[
+  {
+    "loanId": "loan-1001",
+    "reviewerId": "officer-001",
+    "approvalStatus": "conditional",
+    "comments": "Approved with adjusted pricing",
+    "conditionalTerms": {
+      "interestRate": 8.5,
+      "loanTenure": 24
+    }
+  },
+  {
+    "loanId": "loan-2001",
+    "reviewerId": "officer-001",
+    "approvalStatus": "conditional",
+    "comments": "Approved with adjusted pricing",
+    "conditionalTerms": {
+      "interestRate": 8.5,
+      "loanTenure": 24
+    }
+  }
+]

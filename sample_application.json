@@ -1,0 +1,8 @@
+{
+  "applicationId": "loan-2001",
+  "applicantName": "Ava Patel",
+  "email": "ava.patel@example.com",
+  "phone": "+1-555-0101",
+  "loanAmount": 15000,
+  "loanPurpose": "Home improvement"
+}

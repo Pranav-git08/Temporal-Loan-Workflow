@@ -1,0 +1,24 @@
+[
+  {
+    "loanId": "loan-1001",
+    "applicantName": "Ava Patel",
+    "email": "ava.patel@example.com",
+    "loanAmount": 15000.0,
+    "loanTenure": 24,
+    "monthlyEMI": 681.84,
+    "disbursementStatus": "success",
+    "transactionId": "TXN-683D4FB543C3",
+    "reminderIntervalDays": 1
+  },
+  {
+    "loanId": "loan-2001",
+    "applicantName": "Ava Patel",
+    "email": "ava.patel@example.com",
+    "loanAmount": 15000.0,
+    "loanTenure": 24,
+    "monthlyEMI": 681.84,
+    "disbursementStatus": "success",
+    "transactionId": "TXN-B1D9E44F23BE",
+    "reminderIntervalDays": 1
+  }
+]

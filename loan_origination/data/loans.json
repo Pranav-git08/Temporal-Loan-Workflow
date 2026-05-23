@@ -1,0 +1,116 @@
+{
+  "loan-1001": {
+    "application": {
+      "applicationId": "loan-1001",
+      "applicantName": "Ava Patel",
+      "email": "ava.patel@example.com",
+      "phone": "+1-555-0101",
+      "loanAmount": 15000.0,
+      "loanPurpose": "Home improvement"
+    },
+    "status": "disbursed",
+    "updatedAt": "2026-05-10T07:29:36.021994",
+    "financialProfile": {
+      "applicantId": "loan-1001",
+      "creditScore": 675,
+      "annualIncome": 61204.0
+    },
+    "eligibility": {
+      "isEligible": true,
+      "rejectionReason": null
+    },
+    "manualReview": {
+      "reviewerId": "officer-001",
+      "approvalStatus": "conditional",
+      "comments": "Approved with adjusted pricing",
+      "conditionalTerms": {
+        "interestRate": 8.5,
+        "loanTenure": 24
+      }
+    },
+    "pricing": {
+      "interestRate": 8.5,
+      "loanTenure": 24,
+      "monthlyEMI": 681.84
+    },
+    "esignature": {
+      "verified": true,
+      "signerName": "Ava Patel",
+      "verifiedAt": "2026-05-10T07:29:35.982219"
+    },
+    "disbursement": {
+      "success": true,
+      "transactionId": "TXN-683D4FB543C3",
+      "disbursementStatus": "success",
+      "processedAt": "2026-05-10T07:29:36.001854"
+    },
+    "kafkaMessage": {
+      "loanId": "loan-1001",
+      "applicantName": "Ava Patel",
+      "email": "ava.patel@example.com",
+      "loanAmount": 15000.0,
+      "loanTenure": 24,
+      "monthlyEMI": 681.84,
+      "disbursementStatus": "success",
+      "transactionId": "TXN-683D4FB543C3",
+      "reminderIntervalDays": 1
+    }
+  },
+  "loan-2001": {
+    "application": {
+      "applicationId": "loan-2001",
+      "applicantName": "Ava Patel",
+      "email": "ava.patel@example.com",
+      "phone": "+1-555-0101",
+      "loanAmount": 15000.0,
+      "loanPurpose": "Home improvement"
+    },
+    "status": "disbursed",
+    "updatedAt": "2026-05-10T08:07:16.511170",
+    "financialProfile": {
+      "applicantId": "loan-2001",
+      "creditScore": 693,
+      "annualIncome": 101638.0
+    },
+    "eligibility": {
+      "isEligible": true,
+      "rejectionReason": null
+    },
+    "manualReview": {
+      "reviewerId": "officer-001",
+      "approvalStatus": "conditional",
+      "comments": "Approved with adjusted pricing",
+      "conditionalTerms": {
+        "interestRate": 8.5,
+        "loanTenure": 24
+      }
+    },
+    "pricing": {
+      "interestRate": 8.5,
+      "loanTenure": 24,
+      "monthlyEMI": 681.84
+    },
+    "esignature": {
+      "verified": true,
+      "signerName": "Ava Patel",
+      "verifiedAt": "2026-05-10T08:07:16.163700"
+    },
+    "disbursement": {
+      "success": true,
+      "transactionId": "TXN-B1D9E44F23BE",
+      "disbursementStatus": "success",
+      "processedAt": "2026-05-10T08:07:16.223460"
+    },
+    "kafkaMessage": {
+      "loanId": "loan-2001",
+      "applicantName": "Ava Patel",
+      "email": "ava.patel@example.com",
+      "loanAmount": 15000.0,
+      "loanTenure": 24,
+      "monthlyEMI": 681.84,
+      "disbursementStatus": "success",
+      "transactionId": "TXN-B1D9E44F23BE",
+      "reminderIntervalDays": 1
+    }
+  }
+}

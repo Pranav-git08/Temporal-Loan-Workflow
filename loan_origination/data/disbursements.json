@@ -1,0 +1,22 @@
+[
+  {
+    "loanId": "loan-1001",
+    "loanAmount": 15000.0,
+    "loanTenure": 24,
+    "monthlyEMI": 681.84,
+    "success": true,
+    "transactionId": "TXN-683D4FB543C3",
+    "disbursementStatus": "success",
+    "processedAt": "2026-05-10T07:29:36.001854"
+  },
+  {
+    "loanId": "loan-2001",
+    "loanAmount": 15000.0,
+    "loanTenure": 24,
+    "monthlyEMI": 681.84,
+    "success": true,
+    "transactionId": "TXN-B1D9E44F23BE",
+    "disbursementStatus": "success",
+    "processedAt": "2026-05-10T08:07:16.223460"
+  }
+]

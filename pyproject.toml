@@ -1,0 +1,6 @@
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "I"] # Enforce PEP8 and clean imports
+
+[tool.ruff.format]
+quote-style = "double"

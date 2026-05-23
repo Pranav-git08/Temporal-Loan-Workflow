@@ -119,9 +119,9 @@ env\Scripts\python.exe signal_paid_in_full.py loan-1001
 
 ## Notes
 
-- The â€œexternal APIâ€ for credit score and annual income is simulated in `fetch_credit_profile`.
+- The â€œexternal API for credit score and annual income is simulated in `fetch_credit_profile`.
 - Kafka is modeled as a persisted outbox in `loan_origination/data/kafka_outbox.json`.
 - By default the email workflow is auto-started by the loan workflow after publishing the disbursement message. That keeps the end-to-end flow runnable without a separate Kafka consumer process.
 - Reminder cadence defaults to 30 days. Override it when starting the workflow if you want faster demos.
 
-
+![Coverage Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GIST_ID/raw/coverage.json)

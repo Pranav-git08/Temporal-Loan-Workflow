@@ -115,3 +115,7 @@ async def cancel_remaining_notifications(loan_id: str) -> None:
     def _run() -> None:
         repo.upsert_loan_record(loan_id, {"emailNotificationsCancelled": True, "updatedAt": datetime.utcnow().isoformat()})
     await asyncio.to_thread(_run)
+
+@activity.defn
+async def credit_check_activity(applicant_id: str) -> ApplicantFinancialProfile:
+    return await fetch_credit_profile(applicant_id)

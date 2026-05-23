@@ -1,2 +1,3 @@
-temporalio>=1.7,<2.0
-
+﻿temporalio
+pytest
+pytest-asyncio
